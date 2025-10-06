@@ -1,6 +1,6 @@
 <img width="2000" height="2000" alt="1000257236" src="https://github.com/user-attachments/assets/9b5f8037-0bf0-4220-b1fb-8a532b16de02" />
 
-<H1 align="center"> # Kasperia </H1>
+<h align="center"> Kasperia </h>
 
 **Preserving the Spirit of Kashmir**
 
