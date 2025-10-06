@@ -108,7 +108,7 @@
   </blockquote>
 
   <p style="max-width: 700px; margin: 10px auto;">
-    We are still small and growing, with a vision to expand further as our objectives evolve.<br>
+    We are still small and growing, with a vision to expand our objectives as we evolve <br>
     Every contribution is appreciated and valued.
   </p>
 
