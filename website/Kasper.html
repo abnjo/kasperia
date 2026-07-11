@@ -3,18 +3,22 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,400&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    
     <title>KASPER Script Chart</title>
     <style>
         :root {
-            --primary-color: #8a2a8a; /* Matching the purple in the image */
-            --bg-color: #ffffff;
-            --border-color: #f0e0f0;
-        }
+            --primary-color:#a63d40; /* Matching the purple in the image */
+            --bg-color: #f9f5eb;
+            --border-color: #f9f5eb;
+            --paper: #f9f5eb;        
+            --walnut: #4a3b32;      
+            --chinar: #a63d40;      
+            --saffron: #e9b44c; 
+            --shadow: rgba(74, 59, 50, 0.15); 
+            }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,6 +40,10 @@
             margin: 0;
             letter-spacing: 2px;
             text-transform: uppercase;
+            font-family: Merriweather;
+            letter-spacing: 0.2em;
+            color:#4a3b32;
+            border-bottom: 2px solid var(--chinar);
         }
 
         .header p {
@@ -48,6 +56,7 @@
             width: 100%;
             max-width: 900px;
             overflow-x: auto;
+            
         }
 
         
@@ -55,8 +64,18 @@
             width: auto;
             margin-left: auto;
             margin-right: auto;
-            border-spacing: 0;
-}
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border-spacing: 0px;
+            background-color:#ffffff;
+            border-radius: 40px;
+            padding-left:5%;
+            padding-right:3%;
+            padding-top: 2%;
+            padding-bottom:2%;
+             box-shadow:0px 0px 20px 0px var(--shadow);
+            
+           }
         
         td {
             padding: 2px 8px; 
